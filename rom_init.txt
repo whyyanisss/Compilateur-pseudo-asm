@@ -1,0 +1,9 @@
+MEM(1) <= x"0" & x"005";        --  INIT 5
+MEM(2) <= x"2" & x"001";        --  STORE x001
+MEM(3) <= x"3" & x"007";        --  JUMP 7
+MEM(4) <= x"0" & x"001";        --  INIT 1
+MEM(5) <= x"0" & x"001";        --  INIT 1
+MEM(6) <= x"0" & x"001";        --  INIT 1
+MEM(7) <= x"0" & x"001";        --  INIT 1
+MEM(8) <= x"8" & x"001";        --  SUB x001
+MEM(9) <= x"F" & x"000";        --  HALT
